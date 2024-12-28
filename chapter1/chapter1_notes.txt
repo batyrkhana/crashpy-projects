@@ -3,3 +3,33 @@ Variable Are Labels
 
 2.1. Simple Message: Assign a mesage to a variable and then print that message
 2.2. Simple Messages: assign a message to a variable and then print that message then change the value of the variable to a new message and print the new message
+
+Strings
+
+"This is a string"
+'This is also a string'
+
+Changing Case in a String with Methods
+    name = "ada lovelace"
+    print(name.title())
+    the output will be the same string but fully capitalized
+Methods:
+    name.upper()
+    name.lower()
+    name.title()
+
+Using Variables in Strings
+    can be done with the help of    f strings
+Adding Whitespace to Strings with Tabs or Newlines
+    whitespace is any nonprinting characters usch as spaces, tabs, and end-of line symbols. 
+    Whitespace can be used to organize my output so its easier for users to read
+    To add a whitespace (indent) (you need to add a \t ):
+        print("\tSomething")
+    To add a newline(you need to add a \n ):
+        print()
+Stripping a whitespace
+    .rstrip() method to get rid of a whitespace from the right
+    .lstrip() method to get rid of a whitespace from the left
+    .strip() method to get rid of a whitespace from both right and left
+Removing a prefix example:
+    .removeprefix('https://') method
