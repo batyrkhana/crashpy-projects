@@ -1,0 +1,2 @@
+Variable Are Labels
+    Variable are better thought of as labels that can be assigned to values
