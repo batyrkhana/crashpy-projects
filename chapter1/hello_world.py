@@ -15,7 +15,7 @@ print(message)
 message = "Hello Python Crash Course world!"
 print(message)
 # you can constantly update the value for the variable message and python will keep track of the update
-
+"""
 Rules for Variable:
 - variable names can contain only leetters, numbers, and underscores. they can start with a letter or an underscore but not with a number
     you can call a variable message_1 but not 1_message
