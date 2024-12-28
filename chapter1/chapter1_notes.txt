@@ -31,5 +31,6 @@ Stripping a whitespace
     .rstrip() method to get rid of a whitespace from the right
     .lstrip() method to get rid of a whitespace from the left
     .strip() method to get rid of a whitespace from both right and left
-Removing a prefix example:
+Removing a prefix/suffix example:
     .removeprefix('https://') method
+    .removesuffix() method
