@@ -34,3 +34,27 @@ Stripping a whitespace
 Removing a prefix/suffix example:
     .removeprefix('https://') method
     .removesuffix() method
+Numbers
+    Integers:
+        Add:        2+3
+        Subtract:   3-2
+        Multiply:   2*3
+        Divide:     3/2
+        Exponents:  3 ** 2
+Floats:
+    Any number with a decimal point
+        0.1 + 0.1
+Integers and flaots:
+    Dividing any two numbers will always result in a Floats
+Underscores in Numbers:
+    When writing long numbers, you can group digits using underscores to maek large numbers more readable
+        universe_age = 14_000_000_000
+    When printed, python only displays the digits with no underscores
+Multiple Assignment:
+    You can assign values to more than one variabke using a single line of code
+    x, y, z = 0, 0, 0
+        this means that the variables x, y, z are initialized as 0
+Constants:
+    A variable whose value stays the same throughotu teh life of a program
+    ALL CAPITAL LETTERS INDICATE A VARIABLE SHOULD BE TREATED AS A CONSTANT AND NEVER CHANGED
+    MAX_CONNECTIONS = 5000
