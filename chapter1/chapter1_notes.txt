@@ -1,2 +1,5 @@
 Variable Are Labels
     Variable are better thought of as labels that can be assigned to values
+
+2.1. Simple Message: Assign a mesage to a variable and then print that message
+2.2. Simple Messages: assign a message to a variable and then print that message then change the value of the variable to a new message and print the new message
