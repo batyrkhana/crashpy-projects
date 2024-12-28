@@ -58,3 +58,53 @@ Constants:
     A variable whose value stays the same throughotu teh life of a program
     ALL CAPITAL LETTERS INDICATE A VARIABLE SHOULD BE TREATED AS A CONSTANT AND NEVER CHANGED
     MAX_CONNECTIONS = 5000
+Lists:
+    A collection of items in a particular order
+    Python uses brackets to indicate a list []
+    favorite_books = ['irish revolution', 'napoleon', 'economics']
+    if you print a list you get the list and the square brackets
+        ['irish revolution', 'napoleon', 'economics']
+Accessing Elements of a list: 
+    to access an element in a list, write the name of the list followed by the index of the item enclosed in square brackets
+    print(favorite_books[0])
+        the return will be: irish revolution    
+    you an use different methods on top
+    print(favorite_books[0].title())
+        the result will be Irish Revolution
+    index positions start at 0 not at 1
+    negative postion value will give the list item from the back of the list
+Modifying Elements in a list:
+    favorite_books = ['irish revolution', 'napoleon', 'economics']
+    favorite_books[0] = 'american revolution'
+Appending elements to the end of the list 
+    .append() method
+Inserting into a certain poition in a list
+   .insert() method
+To erase the item from a list   
+    use del statement
+        for example:
+            del favorite_books[0] will delete the initial position in the list 
+To take a value from a list and use it
+    .pop([0]) method ; just replace 0 with some index in a list
+Remove item by value: (if you do not know the position but know what to remove)
+    .remove('motorcycle')
+Sorting a list permanently with sort() method
+    .sort() method to sort alphabetically
+    .sort(reverse=True) method to sort alphabetically backwards
+Sorting a list temporarily with sorted() method
+    .sorted() method will let you display the list in a certain order but doesn't affec tthe actual order of the list
+    .sorted(reverse=Trued) method to sort alphabetically backwards
+Sorting a list in reverse order with reverse() method
+    .reverse() method
+Finding length of a list with len() function
+    len([]) function will give you the length of the list
+Avoiding Index errors when working with lists
+
+
+
+
+
+
+
+
+
