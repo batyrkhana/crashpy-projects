@@ -98,12 +98,81 @@ Sorting a list in reverse order with reverse() method
     .reverse() method
 Finding length of a list with len() function
     len([]) function will give you the length of the list
-Avoiding Index errors when working with lists
+Example of a for loop
+students = ['person1','person2', 'person3']
+for student in students: 
+    print(student)
+for student in students: 
+    print(f"{student.title()}, is a great student")
+Using the range() function
+    used to generate series of numbers
+    Example:
+        for value in range(1,5):
+            print(value)
+        Output will be:
+        1
+        2
+        3
+        4
+        5
+Using range() to make a list of numbers:
+    the list() function could be used if wrapped around the range function to create a list of numbers
+    numbers = list(range(1,6))
+    print(numbers)
+    the result will be:
+        [1,2,3,4,5]
+Simple Statistics with a list of numbers:
+    min() function is used to find the minimum value
+    max() function is used to find the maximum value
+    sum() function is used to find the sum of all the values
+List comprehension:
+    squares = [value ** 2 for value in range(1,11)]
+    print(squares)
+Working with part of a list:
 
-
-
-
-
+Slicing a list:
+    Example:
+        students = ['student1', 'student2', 'student3', 'student4', 'student5']
+        print(students[0:3])
+    Result:
+        ['student1', 'student2', 'student3', 'student4']
+if the first index is omitted then the slice will be automatically at the beginning of the List
+    Example:
+        students = ['student1', 'student2', 'student3', 'student4', 'student5']
+        print(students[:4])
+    Result:
+        ['student1', 'student2', 'student3', 'student4']
+Using a negative index:
+    Example:
+        students = ['student1', 'student2', 'student3', 'student4', 'student5']
+        print(students[-3:])
+    Result:
+        ['student3', 'student4', 'student5']
+Making a copy of a list:
+    ommit both of the indexes so you should have [:]
+    Example:
+        my_books = ['book1', 'book2', 'book3']
+        friend_books = my_books[:]
+Tuples:
+    List works well for storing collections of items that can change
+    Tuples help to create a list that cannot change (i.e. immutable values, immutable list)
+    Examples:
+        building_height = (100, 75)
+        print(building_height[0])
+    If a tuple has to contain one element, it must include a trailing comma
+        Example:
+            my_t = (3,)
+Writing over a tuple:
+    Example:
+        dimensions = (200,50)
+        print("Original dimensions")
+        for dimension in dimensions:
+            print(dimension)
+        dimensions = (300,100)
+        print("New dimensions")
+        for dimension in dimensions:
+            print(dimension)
+STYLING THE CODE, PLEASE READ THE PYTHON ENHANCEMENT PROPOSAL (PEP)
 
 
 
