@@ -216,3 +216,45 @@ Checking that a list is not empty:
         books_requested = []
         if books_requested:
             tSomething
+A simple dictionary:
+    Example:
+        book_1 = {'color': 'blue', 'pages': 100}
+        print(book_1['color'])
+key-value pair is a set of values associated with each Other
+Adding New Key-Value pairs:
+    book_0 = {'color': 'blue', 'pages': 100}
+        print(book_1['color'])
+    book_0['x_position'] = 0
+    book_0['y_position'] = 40
+    print(book_0)
+    The result will be a dictionary with 4 values
+Starting with an empty dictionary:
+    Example:
+        book_0 = {}
+Modifying Values in a dictionary
+    Example:
+        alien_0['color'] = 'yellow'
+        print(f"The alien is now {alien_0['color']}.")
+Increasing the Value
+    Example:
+        alien_0['x_position'] = alien_0['x_position'] + x_increment
+Deleting a key value pair:
+    Example:    
+        book_0 = {'color': 'orange', 'points': 5}
+        del book_0['points']
+Dictionary of similar objects
+    Example:
+        favorite_languages = {
+                'jen': 'python',
+                'obama': 'c'
+        }
+Using get() to Access Values:
+    if a key doesn't exist you will get an error
+    to make it look better and more understandable 
+    use get() method
+    Example:    
+        alien_0 = {'color': 'green', 'speed': 'slow'}
+        point_value = alien_0.get('points', 'no point value assigned.')
+        print(point_value)
+    this will return no point value assigned
+    finished on pg 175
