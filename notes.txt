@@ -174,6 +174,45 @@ Writing over a tuple:
             print(dimension)
 STYLING THE CODE, PLEASE READ THE PYTHON ENHANCEMENT PROPOSAL (PEP)
 
-
-
-
+IF Statements example
+    books = ['book1', 'book2', 'book3', 'book4']
+    for book in books:
+        if book == 'book1':
+            print(book.upper())
+        else:
+            print(book.title())
+Checking for equality
+    = means assigning a value
+    == means checking if a value is tSomething
+Checking for inequality
+    != checking if two values are not equal
+    Example:
+        if requested_topping != 'anchovies':    
+        print("Hold the anchovies!")
+Other comparisons:
+    <=
+    =>
+    <
+    >
+Checking multiple conditions:
+    (book_0 >= 21) and (book_1 >= 21)
+Checking whether a value is in a list:
+    Example:
+        Input:
+            'book' in requested_books
+        Output: 
+            false
+Checking whether a value is not in a list 
+    if 'book' not in requested_books
+Boolean expressions:
+    books_purchased = True
+    books_sold = False
+If Statements
+if else Statements
+If elif else statemetns
+Python does not require an else block at teh end of an if-elif chain
+Checking that a list is not empty:
+    Example:
+        books_requested = []
+        if books_requested:
+            tSomething
